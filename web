@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+cd /etc/WebServer
 rm -rf install
 rm -rf start
 rm -rf stop
