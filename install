@@ -3,6 +3,9 @@ red='\033[1;31m'
 blue='\033[0;34m'
 sc='\033[0m'
 clear
+cd /etc
+mkdir WebServer
+cd
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[41;1;37m      • INSTALAÇÃO DO SCRIPT •   \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -27,4 +30,5 @@ sleep 2s
 echo
 echo -e "Para executar novamente digite (bash web).
 sleep 5s
+cd /etc/WebServer
 curl -sO https://raw.githubusercontent.com/Savitar44/web-server/web && bash web
