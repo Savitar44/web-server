@@ -31,4 +31,4 @@ echo
 echo -e "Para executar novamente digite (bash web).
 sleep 5s
 cd /etc/WebServer
-curl -sO https://raw.githubusercontent.com/Savitar44/web-server/web && bash web
+curl -sO https://raw.githubusercontent.com/Savitar44/web-server/main/web && bash web
